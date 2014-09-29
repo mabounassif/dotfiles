@@ -70,6 +70,17 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 # Setup cosmos2-16 for IMACS data reduction
 #. /Users/gully/Function/Cosmos2-16/cosmos2-setup
 
+###############################################################################¬
+# GitHub repositories                                                         #
+###############################################################################¬
+
+export dotfiles="~/Function/dotfiles"
+export astroMLfigs="~/astroML/astroMLfigs"
+export BAADE="/Volumes/cambridge/Astronomy/BD/BAADE"
+export CV="/Volumes/cambridge/Astronomy/CV/CV"
+export NSFaapf="~/Business/JobSearch2015/NSFaapf"
+export RIZzo="/Volumes/cambridge/Astronomy/BD/LIT_DATA/RIZzo"
+
 ###############################################################################
 # Gully's aliases                                                             #
 ###############################################################################
@@ -83,6 +94,7 @@ alias duf='du -sk * | sort -n | perl -ne '\''($s,$f)=split(m{\t});for (qw(K M G)
 # Execute the IRS spectral extraction tool
 alias smart=/Users/gully/IDLWorkspace/smart1/smart/smart
 
+alias ogc='open -a Google\ Chrome'
 
 ###############################################################################
 # $PATH                                                                       #
