@@ -46,3 +46,107 @@ complete -W "NSGlobalDomain" defaults;
 
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
+
+
+###############################################################################
+# Gully's setup files                                                         #
+###############################################################################
+
+# Run the IDL setup file
+. /Applications/itt/idl/bin/idl_setup.bash
+
+# Run the Scisoft setup file
+# Warning- Scisoft breaks some things, especially IMACS tools
+#. /Applications/scisoft/all/bin/Setup.bash
+
+# Dan Kelson's Python distribution
+# Disabled because it conflicts with other Python distributions
+#. /Users/gully/Function/KelPy/PythonSetup.bash
+
+# The CarPy setup file is good! I am just disabling it to work with xshooter stuff right now
+# Re-enable this to work with IMACS data. 
+#. /Users/gully/Function/CarPy/Setup.bash
+
+# Setup cosmos2-16 for IMACS data reduction
+#. /Users/gully/Function/Cosmos2-16/cosmos2-setup
+
+###############################################################################
+# Gully's aliases                                                             #
+###############################################################################
+
+# List the 10 most recently changed files
+alias lsh="ls -t | head"
+
+# List the disk usage of files, sorted by their size
+alias duf='du -sk * | sort -n | perl -ne '\''($s,$f)=split(m{\t});for (qw(K M G)) {if($s<1024) {printf("%.1f",$s);print "$_\t$f"; last};$s=$s/1024}'\'
+
+# Execute the IRS spectral extraction tool
+alias smart=/Users/gully/IDLWorkspace/smart1/smart/smart
+
+
+###############################################################################
+# $PATH                                                                       #
+###############################################################################
+
+# Path to some extras
+export PATH=$PATH:/opt/local/bin:/usr/X11R6/bin:/opt/local/sbin
+
+# Path to the Maskgen software for IMACS on Magellan
+export PATH=/Users/gully/Function/isi5:$PATH
+
+# Path to anaconda (http://continuum.io/)
+export PATH="/Users/gully/anaconda/bin:$PATH"
+
+# Path to DS9 so you can call DS9 from the command line
+export PATH="/Applications/scisoft/i386/Applications/SAOImage_DS9.app/Contents/MacOS:"$PATH 
+
+# Tools for handling VLT X-shooter data- Gasgano and the ESO data pipelines:
+# **Turned off until needed**
+#export PATH="$HOME/Function/ESO/bin:"$PATH
+#export PATH="$HOME/gasgano/bin:"$PATH
+#export PATH="/Users/gully/Function/xsh-kit-1.1.0/xsh-1.1.0/xsh/tests:"$PATH
+#export TDIR=/Users/gully/Function/xsh-kit-1.1.0/xsh-1.1.0/xsh/tests
+#export JAVA_HOME=$(/usr/libexec/java_home)
+#export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home
+#export PATH=${JAVA_HOME}/bin:$PATH
+#export CPLDIR=/Users/gully/Function/ESO/lib/esopipes-plugins/xsh-1.1.0
+
+# Path for manpages
+export MANPATH=/opt/local/share/man:$MANPATH
+
+###############################################################################
+# Dubious dynamic library definitions                                         #
+###############################################################################
+
+#export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/$PYTHONBASE/lib
+#export DYLD_LIBRARY_PATH=/Users/gully/Function/ESO/lib #:/opt/local/lib:/usr/X11R6/lib
+#export DYLD_LIBRARY_PATH="/Users/gully/Function/ESO/lib/esopipes-plugins/xsh-1.1.0:"$DYLD_LIBRARY_PATH
+#export LD_LIBRARY_PATH="/Users/gully/Function/xsh-kit-1.1.0/cpl-5.2.0/cpljava/.libs/:"$LD_LIBRARY_PATH
+#export LD_LIBRARY_PATH="/Users/gully/Function/xsh-kit-1.1.0/cpl-5.2.0/cpljava:"$LD_LIBRARY_PATH
+#export LD_LIBRARY_PATH=/Users/gully/Function/ESO/lib #:/X11/lib/:/X11R6/lib/:/usr/lib
+#$LD_LIBRARY_PATH
+#export LD_LIBRARY_PATH="/Users/gully/Function/ESO/lib/esopipes-plugins/xsh-1.1.0:"$LD_LIBRARY_PATH
+#export DYLD_LIBRARY_PATH="/Users/gully/anaconda/pkgs/mkl-rt-11.1-p0/lib/libiomp5.dylib:"$DYLD_LIBRARY_PATH
+
+
+###############################################################################
+# Deprecated                                                                  #
+###############################################################################
+
+## Deprecated by dotfiles
+#PS1="[\u@\h \W]\$ "
+#TERM=xterm
+#export TERM="xterm-color"
+#export CLICOLOR="true"
+#export LSCOLORS="exfxcxdxbxegedabagacad"
+
+# Old path to (non-anaconda) Python 2.7
+#PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
+#export PATH
+
+# In case you need a specific PYTHONPATH
+#export PYTHONPATH=$PYTHONPATH:/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages
+
+# Fink setup file
+#test -r /sw/bin/init.sh && . /sw/bin/init.sh
+
