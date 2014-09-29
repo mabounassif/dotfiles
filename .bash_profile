@@ -75,23 +75,18 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 # Ureka setup files (http://ssb.stsci.edu/ureka/)
-ur_setup() {
-    eval `/Users/gully/.ureka/ur_setup -sh $*`
-}
-ur_forget() {
-    eval `/Users/gully/.ureka/ur_forget -sh $*`
-}
+#ur_setup() {
+#    eval `/Users/gully/.ureka/ur_setup -sh $*`
+#}
+#ur_forget() {
+#    eval `/Users/gully/.ureka/ur_forget -sh $*`
+#}
 
 ###############################################################################¬
 # GitHub repositories                                                         #
 ###############################################################################¬
 
-#export dotfiles="~/Function/dotfiles"
-#export astroMLfigs="~/astroML/astroMLfigs"
-#export BAADE="/Volumes/cambridge/Astronomy/BD/BAADE"
-#export CV="/Volumes/cambridge/Astronomy/CV/CV"
-#export NSFaapf="~/Business/JobSearch2015/NSFaapf"
-#export RIZzo="/Volumes/cambridge/Astronomy/BD/LIT_DATA/RIZzo"
+#These are now in .path since they are machine-specific
 
 
 ###############################################################################
