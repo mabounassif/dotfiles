@@ -68,18 +68,31 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 #. /Users/gully/Function/CarPy/Setup.bash
 
 # Setup cosmos2-16 for IMACS data reduction
-#. /Users/gully/Function/Cosmos2-16/cosmos2-setup
+. /Users/gully/Function/Cosmos2-16/cosmos2-setup
+#. /Users/gully/Function/Cosmos2-20/cosmos2-setup
+
+# Ruby version manager
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+# Ureka setup files (http://ssb.stsci.edu/ureka/)
+ur_setup() {
+    eval `/Users/gully/.ureka/ur_setup -sh $*`
+}
+ur_forget() {
+    eval `/Users/gully/.ureka/ur_forget -sh $*`
+}
 
 ###############################################################################¬
 # GitHub repositories                                                         #
 ###############################################################################¬
 
-export dotfiles="~/Function/dotfiles"
-export astroMLfigs="~/astroML/astroMLfigs"
-export BAADE="/Volumes/cambridge/Astronomy/BD/BAADE"
-export CV="/Volumes/cambridge/Astronomy/CV/CV"
-export NSFaapf="~/Business/JobSearch2015/NSFaapf"
-export RIZzo="/Volumes/cambridge/Astronomy/BD/LIT_DATA/RIZzo"
+#export dotfiles="~/Function/dotfiles"
+#export astroMLfigs="~/astroML/astroMLfigs"
+#export BAADE="/Volumes/cambridge/Astronomy/BD/BAADE"
+#export CV="/Volumes/cambridge/Astronomy/CV/CV"
+#export NSFaapf="~/Business/JobSearch2015/NSFaapf"
+#export RIZzo="/Volumes/cambridge/Astronomy/BD/LIT_DATA/RIZzo"
+
 
 ###############################################################################
 # Gully's aliases                                                             #
@@ -94,7 +107,11 @@ alias duf='du -sk * | sort -n | perl -ne '\''($s,$f)=split(m{\t});for (qw(K M G)
 # Execute the IRS spectral extraction tool
 alias smart=/Users/gully/IDLWorkspace/smart1/smart/smart
 
+# Launch a Chrome browser from command line
 alias ogc='open -a Google\ Chrome'
+
+# Alias for ds9
+#alias ds9="/Applications/SAOImage_DS9.app/Contents/MacOS/ds9"
 
 ###############################################################################
 # $PATH                                                                       #
@@ -125,6 +142,7 @@ export PATH="/Applications/scisoft/i386/Applications/SAOImage_DS9.app/Contents/M
 
 # Path for manpages
 export MANPATH=/opt/local/share/man:$MANPATH
+
 
 ###############################################################################
 # Dubious dynamic library definitions                                         #
@@ -161,4 +179,7 @@ export MANPATH=/opt/local/share/man:$MANPATH
 
 # Fink setup file
 #test -r /sw/bin/init.sh && . /sw/bin/init.sh
+
+# Old path to Python before anaconda (some pip files)
+#export PATH=$PATH:/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages
 
