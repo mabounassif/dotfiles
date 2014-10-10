@@ -119,7 +119,7 @@ export PATH=$PATH:/opt/local/bin:/usr/X11R6/bin:/opt/local/sbin
 export PATH=/Users/gully/Function/isi5:$PATH
 
 # Path to anaconda (http://continuum.io/)
-export PATH="/Users/gully/anaconda/bin:$PATH"
+#export PATH="/Users/gully/anaconda/bin:$PATH"
 
 # Path to DS9 so you can call DS9 from the command line
 export PATH="/Applications/scisoft/i386/Applications/SAOImage_DS9.app/Contents/MacOS:"$PATH 
