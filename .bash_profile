@@ -65,7 +65,7 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 
 # The CarPy setup file is good! I am just disabling it to work with xshooter stuff right now
 # Re-enable this to work with IMACS data. 
-#. /Users/gully/Function/CarPy/Setup.bash
+. /Users/gully/Function/CarPy/Setup.bash
 
 # Setup cosmos2-16 for IMACS data reduction
 . /Users/gully/Function/Cosmos2-16/cosmos2-setup
