@@ -65,7 +65,7 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 
 # The CarPy setup file is good! I am just disabling it to work with xshooter stuff right now
 # Re-enable this to work with IMACS data. 
-. /Users/gully/Function/CarPy/Setup.bash
+#. /Users/gully/Function/CarPy/Setup.bash
 
 # Setup cosmos2-16 for IMACS data reduction
 . /Users/gully/Function/Cosmos2-16/cosmos2-setup
@@ -113,13 +113,11 @@ alias ogc='open -a Google\ Chrome'
 ###############################################################################
 
 # Path to some extras
-export PATH=$PATH:/opt/local/bin:/usr/X11R6/bin:/opt/local/sbin
+#export PATH=$PATH:/opt/local/bin:/usr/X11R6/bin:/opt/local/sbin
+export PATH=$PATH:/usr/X11R6/bin
 
 # Path to the Maskgen software for IMACS on Magellan
 export PATH=/Users/gully/Function/isi5:$PATH
-
-# Path to anaconda (http://continuum.io/)
-#export PATH="/Users/gully/anaconda/bin:$PATH"
 
 # Path to DS9 so you can call DS9 from the command line
 export PATH="/Applications/scisoft/i386/Applications/SAOImage_DS9.app/Contents/MacOS:"$PATH 
@@ -178,3 +176,5 @@ export MANPATH=/opt/local/share/man:$MANPATH
 # Old path to Python before anaconda (some pip files)
 #export PATH=$PATH:/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages
 
+#Set Homebrew packages as default
+export PATH=/usr/local/bin:$PATH
