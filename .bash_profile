@@ -106,21 +106,20 @@ alias smart=/Users/gully/IDLWorkspace/smart1/smart/smart
 alias ogc='open -a Google\ Chrome'
 
 # Alias for ds9
-#alias ds9="/Applications/SAOImage_DS9.app/Contents/MacOS/ds9"
+alias ds9="/Applications/SAOImage_DS9.app/Contents/MacOS/ds9"
 
 ###############################################################################
 # $PATH                                                                       #
 ###############################################################################
 
 # Path to some extras
-#export PATH=$PATH:/opt/local/bin:/usr/X11R6/bin:/opt/local/sbin
 export PATH=$PATH:/usr/X11R6/bin
 
 # Path to the Maskgen software for IMACS on Magellan
-export PATH=/Users/gully/Function/isi5:$PATH
+#export PATH=/Users/gully/Function/isi5:$PATH
 
 # Path to DS9 so you can call DS9 from the command line
-export PATH="/Applications/scisoft/i386/Applications/SAOImage_DS9.app/Contents/MacOS:"$PATH 
+#export PATH="/Applications/scisoft/i386/Applications/SAOImage_DS9.app/Contents/MacOS:"$PATH 
 
 # Tools for handling VLT X-shooter data- Gasgano and the ESO data pipelines:
 # **Turned off until needed**
@@ -134,8 +133,6 @@ export PATH="/Applications/scisoft/i386/Applications/SAOImage_DS9.app/Contents/M
 #export CPLDIR=/Users/gully/Function/ESO/lib/esopipes-plugins/xsh-1.1.0
 
 # Path for manpages
-export MANPATH=/opt/local/share/man:$MANPATH
-
 
 ###############################################################################
 # Dubious dynamic library definitions                                         #
@@ -156,25 +153,8 @@ export MANPATH=/opt/local/share/man:$MANPATH
 # Deprecated                                                                  #
 ###############################################################################
 
-## Deprecated by dotfiles
-#PS1="[\u@\h \W]\$ "
-#TERM=xterm
-#export TERM="xterm-color"
-#export CLICOLOR="true"
-#export LSCOLORS="exfxcxdxbxegedabagacad"
-
-# Old path to (non-anaconda) Python 2.7
-#PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
-#export PATH
-
 # In case you need a specific PYTHONPATH
 #export PYTHONPATH=$PYTHONPATH:/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages
-
-# Fink setup file
-#test -r /sw/bin/init.sh && . /sw/bin/init.sh
-
-# Old path to Python before anaconda (some pip files)
-#export PATH=$PATH:/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages
 
 #Set Homebrew packages as default
 export PATH=/usr/local/bin:$PATH
