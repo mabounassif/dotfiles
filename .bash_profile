@@ -1,5 +1,6 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
+export PATH="$HOME/anaconda/bin:$PATH";
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
@@ -64,7 +65,7 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 #. /Users/gully/Function/KelPy/PythonSetup.bash
 
 # The CarPy setup file is good! I am just disabling it to work with xshooter stuff right now
-# Re-enable this to work with IMACS data. 
+# Re-enable this to work with IMACS data.
 #. /Users/gully/Function/CarPy/Setup.bash
 
 # Setup cosmos2-16 for IMACS data reduction
@@ -119,7 +120,7 @@ export PATH=$PATH:/usr/X11R6/bin
 #export PATH=/Users/gully/Function/isi5:$PATH
 
 # Path to DS9 so you can call DS9 from the command line
-#export PATH="/Applications/scisoft/i386/Applications/SAOImage_DS9.app/Contents/MacOS:"$PATH 
+#export PATH="/Applications/scisoft/i386/Applications/SAOImage_DS9.app/Contents/MacOS:"$PATH
 
 # Tools for handling VLT X-shooter data- Gasgano and the ESO data pipelines:
 # **Turned off until needed**
