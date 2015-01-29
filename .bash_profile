@@ -158,4 +158,4 @@ export PATH=$PATH:/usr/X11R6/bin
 #export PYTHONPATH=$PYTHONPATH:/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages
 
 #Set Homebrew packages as default
-export PATH=/usr/local/bin:$PATH
+#export PATH=/usr/local/bin:$PATH
