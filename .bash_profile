@@ -1,6 +1,7 @@
 # Add `~/bin` to the `$PATH`
 export PATH=/usr/local/bin:$PATH
 export PATH="$HOME/bin:$PATH";
+export PATH="/Developer/usr/bin:$PATH"
 export PATH="$HOME/anaconda/bin:$PATH";
 
 # Load the shell dotfiles, and then some:
