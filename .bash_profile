@@ -1,6 +1,11 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
 export PATH="$HOME/anaconda/bin:$PATH";
+export PATH="/usr/local/bin:$PATH";
+
+
+source .todo_completion
+complete -F _todo t
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
