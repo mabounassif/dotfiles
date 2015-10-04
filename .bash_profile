@@ -1,5 +1,7 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
+# Depends on which version of gcc you want:
+#export PATH="/Developer/usr/bin:$PATH"
 export PATH="$HOME/anaconda/bin:$PATH";
 export PATH="/usr/local/bin:$PATH";
 
