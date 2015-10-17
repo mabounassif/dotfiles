@@ -1,13 +1,13 @@
 # Add `~/bin` to the `$PATH`
-export PATH="$HOME/bin:$PATH";
+#export PATH="$HOME/bin:$PATH";
 # Depends on which version of gcc you want:
 #export PATH="/Developer/usr/bin:$PATH"
-export PATH="$HOME/anaconda/bin:$PATH";
-export PATH="/usr/local/bin:$PATH";
+#export PATH="$HOME/anaconda/bin:$PATH";
+#export PATH="/usr/local/bin:$PATH";
 
 
-source .todo_completion
-complete -F _todo t
+#source .todo_completion
+#complete -F _todo t
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
@@ -61,7 +61,7 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 ###############################################################################
 
 # Run the IDL setup file
-. /Applications/itt/idl/bin/idl_setup.bash
+#. /Applications/itt/idl/bin/idl_setup.bash
 
 # Run the Scisoft setup file
 # Warning- Scisoft breaks some things, especially IMACS tools
@@ -76,11 +76,11 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 #. /Users/gully/Function/CarPy/Setup.bash
 
 # Setup cosmos2-16 for IMACS data reduction
-. /Users/gully/Function/Cosmos2-16/cosmos2-setup
+#. /Users/gully/Function/Cosmos2-16/cosmos2-setup
 #. /Users/gully/Function/Cosmos2-20/cosmos2-setup
 
 # Ruby version manager
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+#[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 # Ureka setup files (http://ssb.stsci.edu/ureka/)
 #ur_setup() {
@@ -108,20 +108,20 @@ alias lsh="ls -t | head"
 alias duf='du -sk * | sort -n | perl -ne '\''($s,$f)=split(m{\t});for (qw(K M G)) {if($s<1024) {printf("%.1f",$s);print "$_\t$f"; last};$s=$s/1024}'\'
 
 # Execute the IRS spectral extraction tool
-alias smart=/Users/gully/IDLWorkspace/smart1/smart/smart
+#alias smart=/Users/gully/IDLWorkspace/smart1/smart/smart
 
 # Launch a Chrome browser from command line
 alias ogc='open -a Google\ Chrome'
 
 # Alias for ds9
-alias ds9="/Applications/SAOImage_DS9.app/Contents/MacOS/ds9"
+#alias ds9="/Applications/SAOImage_DS9.app/Contents/MacOS/ds9"
 
 ###############################################################################
 # $PATH                                                                       #
 ###############################################################################
 
 # Path to some extras
-export PATH=$PATH:/usr/X11R6/bin
+#export PATH=$PATH:/usr/X11R6/bin
 
 # Path to the Maskgen software for IMACS on Magellan
 #export PATH=/Users/gully/Function/isi5:$PATH
