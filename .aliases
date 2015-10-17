@@ -2,6 +2,8 @@
 #alias t="/Users/gully/GitHub/todo.txt_cli-2.10/todo.sh"
 #export TODOTXT_DEFAULT_ACTION=ls
 
+alias subl="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
+
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."
