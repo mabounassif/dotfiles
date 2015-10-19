@@ -5,6 +5,7 @@
 #export PATH="$HOME/anaconda/bin:$PATH";
 #export PATH="/usr/local/bin:$PATH";
 
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 #source .todo_completion
 #complete -F _todo t
