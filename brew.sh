@@ -15,7 +15,8 @@ brew update
 brew upgrade --all
 
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
-sudo ln -s /usr/local/bin/gsha256sum /usr/local/bin/sha256sum
+# Only have to do this once.
+#sudo ln -s /usr/local/bin/gsha256sum /usr/local/bin/sha256sum
 
 brew bundle
 
