@@ -41,8 +41,6 @@ brew 'findutils'
 ## Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before running `chsh`.
 brew 'bash'
 brew 'bash-completion'
-
-
 brew 'homebrew/dupes/grep'
 brew 'homebrew/dupes/screen'
 
@@ -51,13 +49,8 @@ brew 'git'
 brew 'nmap'
 brew 'tree'
 
-
-## Flags don't seem to work...
-#brew 'wget' --enable-iri
-#brew 'vim' --override-system-vi
-#brew 'imagemagick' --with-webp
-#brew 'gnu-sed' --default-names
-
-## Can't find Astrometry.net.
-
-#brew 'astrometry-net'
+brew 'wget', args: ['--enable-iri']
+brew 'vim', args: ['--override-system-vi']
+brew 'imagemagick', args: ['--with-webp']
+brew 'gnu-sed', args: ['--default-names']
+brew 'homebrew/science/astrometry-net'
