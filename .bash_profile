@@ -2,10 +2,10 @@
 #export PATH="$HOME/bin:$PATH";
 # Depends on which version of gcc you want:
 #export PATH="/Developer/usr/bin:$PATH"
-#export PATH="$HOME/anaconda/bin:$PATH";
 #export PATH="/usr/local/bin:$PATH";
 
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+export PATH="/anaconda/bin:$PATH";
 
 #source .todo_completion
 #complete -F _todo t
