@@ -1,6 +1,15 @@
-# Mathias’s dotfiles
+# gully’s dotfiles
 
-![Screenshot of my shell prompt](http://i.imgur.com/EkEtphC.png)
+My fork of [Mathias's] dotfiles repo.  A few key differences:
+- got rid of a lot of packages in Homebrew's `Brewfile` that I wasn't going to use
+- tweaked the .osx file to comport with my preferences
+- added a list of my conda environment.
+- added many casks to the Brewfile.
+- tweaked the bootstrap to limit how much crap is copied into the home directory.
+
+The main virtue is having an *awesome* looking iTerm, with awesome aliases:
+
+[gully's terminal from nice dotfiles repo](http://i.imgur.com/tvrhUwk.png)
 
 ## Installation
 
