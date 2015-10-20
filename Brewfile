@@ -30,11 +30,7 @@ cask 'google-drive'
 ## Interesting casks worth trying someday:
 # volatility, noun-project, mongodb, sketch, transmission, focus, amazon-cloud-drive, inkscape, tableau, rescuetime, readcube, openoffice, omnigraffle, vagrant, puppet, pycharm
 
-
-## Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
 brew 'coreutils'
-
-##sudo ln -s /usr/local/bin/gsha256sum /usr/local/bin/sha256sum
 brew 'moreutils'
 brew 'findutils'
 
@@ -48,6 +44,7 @@ brew 'gettext'
 brew 'git'
 brew 'nmap'
 brew 'tree'
+brew 'gifsicle'
 
 brew 'wget', args: ['--enable-iri']
 brew 'vim', args: ['--override-system-vi']

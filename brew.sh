@@ -14,8 +14,6 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade --all
 
-# Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
-# Only have to do this once.
 #sudo ln -s /usr/local/bin/gsha256sum /usr/local/bin/sha256sum
 
 brew bundle
