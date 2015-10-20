@@ -9,8 +9,12 @@ cask 'spotify'
 cask 'saoimage-ds9'
 cask 'whatroute'
 cask 'flash'
+cask 'google-drive'
 
-#casl '1password'
+
+## I might install these someday.
+#cask 'dockertoolbox'
+#cask '1password'
 #cask 'adobe-reader'
 #cask 'audacity'
 #cask 'atom'
@@ -19,12 +23,11 @@ cask 'flash'
 #cask 'alfred'
 #cask 'anaconda'
 #cask 'firefox'
-
 #cask 'stellarium'
 
 
 ## Interesting casks worth trying someday:
-# volatility, noun-project, mongodb, sketch, transmission, focus, amazon-cloud-drive, inkscape, tableau, rescuetime, readcube, openoffice, omnigraffle
+# volatility, noun-project, mongodb, sketch, transmission, focus, amazon-cloud-drive, inkscape, tableau, rescuetime, readcube, openoffice, omnigraffle, vagrant, puppet, pycharm
 
 
 ## Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
