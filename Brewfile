@@ -2,7 +2,30 @@
 ## Casks
 
 tap 'caskroom/cask'
+cask 'skim'
+cask 'slack'
 cask 'skype'
+cask 'spotify'
+cask 'saoimage-ds9'
+cask 'whatroute'
+cask 'flash'
+
+#casl '1password'
+#cask 'adobe-reader'
+#cask 'audacity'
+#cask 'atom'
+#cask 'astrill'
+#cask 'arduino'
+#cask 'alfred'
+#cask 'anaconda'
+#cask 'firefox'
+
+#cask 'stellarium'
+
+
+## Interesting casks worth trying someday:
+# volatility, noun-project, mongodb, sketch, transmission, focus, amazon-cloud-drive, inkscape, tableau, rescuetime, readcube, openoffice, omnigraffle
+
 
 ## Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
 brew 'coreutils'
@@ -19,6 +42,7 @@ brew 'bash-completion'
 brew 'homebrew/dupes/grep'
 brew 'homebrew/dupes/screen'
 
+brew 'gettext'
 brew 'git'
 brew 'nmap'
 brew 'tree'
