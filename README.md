@@ -9,7 +9,7 @@ My fork of [Mathias's] dotfiles repo.  A few key differences:
 
 The main virtue is having an *awesome* looking iTerm, with awesome aliases:
 
-[gully's terminal from nice dotfiles repo](http://i.imgur.com/tvrhUwk.png)
+![gully's terminal from nice dotfiles repo](http://i.imgur.com/tvrhUwk.png)
 
 ## Installation
 
