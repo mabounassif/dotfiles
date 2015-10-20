@@ -53,4 +53,7 @@ brew 'wget', args: ['--enable-iri']
 brew 'vim', args: ['--override-system-vi']
 brew 'imagemagick', args: ['--with-webp']
 brew 'gnu-sed', args: ['--default-names']
-brew 'homebrew/science/astrometry-net'
+#brew 'netpbm', args:['--HEAD', '--use-gcc']
+#brew 'cfitsio' args:['--with-examples']
+#brew 'md5sha1sum'
+#brew 'homebrew/science/astrometry-net'
