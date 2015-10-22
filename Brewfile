@@ -10,10 +10,10 @@ cask 'saoimage-ds9'
 cask 'whatroute'
 cask 'flash'
 cask 'google-drive'
+cask 'sourcetree'
 
 
 ## I might install these someday.
-#cask 'sourcetree'
 #cask 'dockertoolbox'
 #cask '1password'
 #cask 'adobe-reader'
@@ -26,6 +26,8 @@ cask 'google-drive'
 #cask 'firefox'
 #cask 'stellarium'
 
+## I think the default OS X version of java is fine...
+##cask 'java'
 
 ## Interesting casks worth trying someday:
 # volatility, noun-project, mongodb, sketch, transmission, focus, amazon-cloud-drive, inkscape, tableau, rescuetime, readcube, openoffice, omnigraffle, vagrant, puppet, pycharm
@@ -45,6 +47,8 @@ brew 'git'
 brew 'nmap'
 brew 'tree'
 brew 'gifsicle'
+brew 'gpg'
+brew 'gpg2'
 
 brew 'wget', args: ['--enable-iri']
 brew 'vim', args: ['--override-system-vi']
