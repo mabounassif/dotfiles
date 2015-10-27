@@ -49,6 +49,7 @@ brew 'tree'
 brew 'gifsicle'
 brew 'gpg'
 brew 'gpg2'
+brew 'icu4c'
 
 brew 'wget', args: ['--enable-iri']
 brew 'vim', args: ['--override-system-vi']
