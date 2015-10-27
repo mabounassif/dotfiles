@@ -7,6 +7,7 @@
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 export PATH="/anaconda/bin:$PATH";
 source ~/.profile
+export PATH="~/GitHub/Starfish/scripts/:$PATH";
 
 #source .todo_completion
 #complete -F _todo t
