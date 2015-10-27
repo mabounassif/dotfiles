@@ -82,7 +82,8 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 #. /Users/gully/Function/Cosmos2-20/cosmos2-setup
 
 # Ruby version manager
-#[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+# Load RVM into a shell session *as a function*
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" 
 
 # Ureka setup files (http://ssb.stsci.edu/ureka/)
 #ur_setup() {

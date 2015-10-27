@@ -20,3 +20,10 @@ brew bundle
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+# Let's also install some Ruby stuff.
+#rvm use 2.2 --default
+
+#gem install jekyll
+#gem install bundler
+
