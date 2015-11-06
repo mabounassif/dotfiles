@@ -11,7 +11,9 @@ cask 'whatroute'
 cask 'flash'
 cask 'google-drive'
 cask 'sourcetree'
-
+cask 'xquartz'
+cask 'inkscape'
+cask 'thunderbird'
 
 ## I might install these someday.
 #cask 'dockertoolbox'
@@ -30,7 +32,7 @@ cask 'sourcetree'
 ##cask 'java'
 
 ## Interesting casks worth trying someday:
-# volatility, noun-project, mongodb, sketch, transmission, focus, amazon-cloud-drive, inkscape, tableau, rescuetime, readcube, openoffice, omnigraffle, vagrant, puppet, pycharm
+# volatility, noun-project, mongodb, sketch, transmission, focus, amazon-cloud-drive, tableau, rescuetime, readcube, openoffice, omnigraffle, vagrant, puppet, pycharm
 
 brew 'coreutils'
 brew 'moreutils'
