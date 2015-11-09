@@ -4,6 +4,13 @@
 #export PATH="/Developer/usr/bin:$PATH"
 #export PATH="/usr/local/bin:$PATH";
 
+##To Get TelFit to Install (and maybe work??):
+## Uncomment below
+## See https://github.com/kgullikson88/Telluric-Fitter/issues/12
+#------------------------
+#alias gcc="gcc-5"
+#------------------------
+
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 export PATH="/anaconda/bin:$PATH";
 source ~/.profile
