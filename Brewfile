@@ -15,6 +15,12 @@ cask 'xquartz'
 cask 'inkscape'
 cask 'thunderbird'
 
+## Mactex fails on installation.  
+## But running the command below does fetch the .pkg file.
+#cask 'mactex'
+## Then navigate to /Library/Caches/Homebrew/ and just open the .pkg file.
+
+
 ## I might install these someday.
 #cask 'dockertoolbox'
 #cask '1password'
