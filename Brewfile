@@ -52,6 +52,7 @@ brew 'homebrew/dupes/screen'
 
 brew 'gettext'
 brew 'git'
+brew 'hub'
 brew 'nmap'
 brew 'tree'
 brew 'gifsicle'
