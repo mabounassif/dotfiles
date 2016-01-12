@@ -14,6 +14,7 @@ cask 'sourcetree'
 cask 'xquartz'
 cask 'inkscape'
 cask 'thunderbird'
+cask 'atom'
 
 ## Mactex fails on installation.  
 ## But running the command below does fetch the .pkg file.
@@ -26,13 +27,11 @@ cask 'thunderbird'
 #cask '1password'
 #cask 'adobe-reader'
 #cask 'audacity'
-#cask 'atom'
 #cask 'astrill'
 #cask 'arduino'
 #cask 'alfred'
 #cask 'anaconda'
 #cask 'firefox'
-#cask 'stellarium'
 
 ## I think the default OS X version of java is fine...
 ##cask 'java'
