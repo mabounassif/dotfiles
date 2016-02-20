@@ -48,6 +48,7 @@ brew 'bash'
 brew 'bash-completion'
 brew 'homebrew/dupes/grep'
 brew 'homebrew/dupes/screen'
+brew 'clang-omp'
 
 brew 'gettext'
 brew 'git'
@@ -58,6 +59,7 @@ brew 'gifsicle'
 brew 'gpg'
 brew 'gpg2'
 brew 'icu4c'
+brew 'pandoc'
 
 brew 'wget', args: ['--enable-iri']
 brew 'vim', args: ['--override-system-vi']
